@@ -1,0 +1,117 @@
+body {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+
+/* start of heading */
+
+div.name {
+  text-decoration: underline;
+  color: rgb(158, 10, 10);
+  font-family: monospace;
+  font-size: 3em;
+  text-shadow: 3px 3px 1px tan;
+}
+
+div.email {
+  text-shadow: 3px 3px 2px darkred;
+  font-weight: bolder;
+  color: tan;
+
+}
+
+p.job {
+  text-decoration: underline;
+  font-size: 1.5em;
+
+}
+
+/* end of heading* /
+
+
+/*start of personal experience */
+div.profilepic {
+  content: url(https://pbs.twimg.com/profile_images/1222646977332174849/xWcD6t_Q_400x400.jpg);
+  height: 35%;
+  width: 35%;
+  border-radius: 200px;
+}
+
+#parent p:first-child {
+  width: 200px;
+  height: 125px;
+  background-image: url("https://www.treehugger.com/thmb/Bqy4Ek0WsS0_V4RuJAPABTW0Ym4=/3000x3000/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2019__07__shutterstock_113278297-247408febef145a5a6f04eeff17e85f4.jpg");
+  float: center;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-weight: bold;
+  color: grey;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 10px black;
+
+}
+
+#parent p:nth-child(2) {
+  color: darkblue;
+  top: 65px;
+  right: 5%;
+  position: fixed;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+
+table {
+  border-collapse: seperate;
+  border-spacing: 10px 10px;
+  border-color: darkblue;
+
+}
+
+div.html {
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+
+}
+
+div.css {
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+
+
+}
+
+div.python {
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+
+}
+
+
+/* end of personal experience */
+
+/* start of contact info */
+h3 {
+  font-size: 1.3em;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+
+
+
+
+/* end of contact info */
